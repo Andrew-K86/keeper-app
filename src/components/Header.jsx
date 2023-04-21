@@ -1,7 +1,11 @@
 import React from "react";
-import { ReactDOM } from "react";
+
 
 function Header() {
-    return   
-   }
-   export default Header;
+    return (
+        <header className="header">
+            <h1>Keeper</h1>
+        </header>
+    );
+}
+export default Header;
